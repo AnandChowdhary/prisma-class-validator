@@ -1,7 +1,7 @@
 name: CodeQL CI
 on:
   schedule:
-    - cron: '0 0 * * 1'
+    - cron: "0 0 * * 1"
 jobs:
   release:
     name: Build and analyze
@@ -19,7 +19,7 @@ jobs:
         with:
           languages: javascript
       - name: Cache node modules
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         env:
           cache-name: cache-node-modules
         with:
