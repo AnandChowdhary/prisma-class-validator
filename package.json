@@ -1,32 +1,35 @@
 {
-  "name": "@koj/template",
-  "version": "1.0.14",
-  "description": "Koj's repository template with GitHub Actions CI, releases, and more",
+  "name": "prisma-class-validator",
+  "version": "0.0.0",
+  "description": "Automatically generator class-validator schema from Prisma client",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "jest",
     "test-watch": "jest --watch",
     "coverage": "jest --coverage",
-    "update-template": "npx update-template https://github.com/koj-co/template",
+    "update-template": "npx update-template https://github.com/koj-co/prisma-class-validator",
     "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koj-co/template.git"
+    "url": "git+https://github.com/koj-co/prisma-class-validator.git"
   },
   "keywords": [
     "koj",
-    "template",
+    "prisma",
+    "class-validator",
+    "class-transform",
+    "prisma-client",
     "nodejs",
     "typescript"
   ],
   "author": "Anand Chowdhary <mail@anandchowdhary.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/koj-co/template/issues"
+    "url": "https://github.com/koj-co/prisma-class-validator/issues"
   },
-  "homepage": "https://github.com/koj-co/template#readme",
+  "homepage": "https://github.com/koj-co/prisma-class-validator#readme",
   "devDependencies": {
     "@koj/config": "1.2.11",
     "@semantic-release/changelog": "^5.0.1",
