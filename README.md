@@ -10,6 +10,8 @@ Automatically generator `class-validator` schema from Prisma client projects.
 | PRs | [![PR Generator CI](https://github.com/koj-co/prisma-class-validator/workflows/PR%20Generator%20CI/badge.svg)](https://github.com/koj-co/prisma-class-validator/actions?query=workflow%3A%22PR+Generator+CI%22) [![Merge PRs](https://github.com/koj-co/prisma-class-validator/workflows/Merge%20PRs/badge.svg)](https://github.com/koj-co/prisma-class-validator/actions?query=workflow%3A%22Merge+PRs%22) |
 <!-- prettier-ignore-end -->
 
+At Koj, we use this package to automatically generate [`@koj/types`](https://www.npmjs.com/package/@koj/types) from our Prisma schema.
+
 ## ⭐️ Features
 
 - Coming soon
