@@ -4,6 +4,16 @@
  */
 
 import { format } from "prettier";
+import { readFile } from "fs/promises";
+import { join } from "path";
+
+export const readAndGenerateClassValidator = async () => {
+  const generatedTypes = await readFile(
+    join(".", "node_modules", ".prisma", "client", "index.d.ts"),
+    "utf8"
+  );
+  return generateClassValidatorFromPrismaClient(generatedTypes);
+};
 
 export const generateClassValidatorFromPrismaClient = (generatedTypes: string) => {
   const enums = new Set<string>();
