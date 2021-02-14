@@ -14,11 +14,41 @@ At Koj, we use this package to automatically generate [`@koj/types`](https://www
 
 ## ⭐️ Features
 
-- Coming soon
+The `readAndGenerateClassValidator` method reads your generated Prisma client (after running `npx prisma generate`) and automatically generates a class-validator schema.
+
+First, install from npm:
+
+```bash
+npm install --save-dev prisma-class-validator
+```
+
+Usage with TypeScript/Node.js:
+
+```ts
+import { readAndGenerateClassValidator } from "prisma-class-validator";
+import { writeFile } from "fs/promises";
+
+(async () => {
+  const schema = await readAndGenerateClassValidator();
+  await writeFile("validator.ts", schema);
+})();
+```
+
+Usage with JavaScript/Node.js:
+
+```js
+const { readAndGenerateClassValidator } = require("prisma-class-validator");
+const { writeFile } = require("fs/promises");
+
+(async () => {
+  const schema = await readAndGenerateClassValidator();
+  await writeFile("validator.ts", schema);
+})();
+```
 
 ## 💻 Example
 
-The `generateClassValidatorFromPrismaClient` method is used to take a string consisting of generated Prisma schema and converting it to class-validator:
+The `generateClassValidatorFromPrismaClient` method is used to take a string consisting of generated Prisma schema and converting it to class-validator. In this case, you are expected to read the generated Prisma schema `index.d.ts` file and supply that as the input.
 
 <details>
   <summary>Example input</summary>
