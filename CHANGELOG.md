@@ -1,3 +1,14 @@
+## v1.1.3 (2021-03-08)
+
+[📝 Release notes](https://github.com/koj-co/prisma-class-validator/releases/tag/v1.1.3) · [💻 Compare](https://github.com/koj-co/prisma-class-validator/compare/v1.1.2...v1.1.3) · [🔖 Tag](https://github.com/koj-co/prisma-class-validator/tree/v1.1.3) · 🗄️ Archive ([zip](https://github.com/koj-co/prisma-class-validator/archive/v1.1.3.zip) · [tar.gz](https://github.com/koj-co/prisma-class-validator/archive/v1.1.3.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`b13081c`](https://github.com/koj-co/prisma-class-validator/commit/b13081c)  Bump ts-jest from 26.5.2 to 26.5.3
+- [`a4623bd`](https://github.com/koj-co/prisma-class-validator/commit/a4623bd)  Bump semantic-release from 17.4.0 to 17.4.1
+- [`2cc19f3`](https://github.com/koj-co/prisma-class-validator/commit/2cc19f3)  Bump stefanzweifel/git-auto-commit-action
+- [`4c63147`](https://github.com/koj-co/prisma-class-validator/commit/4c63147)  Bump typescript from 4.2.2 to 4.2.3
+
 ## v1.1.2 (2021-03-01)
 
 [📝 Release notes](https://github.com/koj-co/prisma-class-validator/releases/tag/v1.1.2) · [💻 Compare](https://github.com/koj-co/prisma-class-validator/compare/v1.1.1...v1.1.2) · [🔖 Tag](https://github.com/koj-co/prisma-class-validator/tree/v1.1.2) · 🗄️ Archive ([zip](https://github.com/koj-co/prisma-class-validator/archive/v1.1.2.zip) · [tar.gz](https://github.com/koj-co/prisma-class-validator/archive/v1.1.2.tar.gz))
